@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+
+/* HEADER */
+
+header{
+    background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    /* display: grid;
+    grid-template-columns: 15% auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    "logo ."
+    "logo estudioFM"
+    "logo ."
+    "nav nav"
+    ; */
+}
+
+.logo{ 
+    text-align: center;
+    /* display: inline-block;
+    display: flex; */
+    justify-content: center;
+    /* grid-area: logo;
+    padding: 5px 0px 5px 20px; */
+}
+
+.estudioFM{
+    grid-area: estudioFM;
+    text-align: center;
+    color: white;
+}
+
+header nav ul li a:link {
+    color: #131b23;
+}
+
+header nav ul li a:visited {
+    color: #131b23;
+}
+
+header nav ul li a:hover {
+    color: #2e4153
+}
+
+#fondoBuscar{
+    background-color:  #e0dac6;
+    border-color: white;
+    color: #131b23;
+}
+
+#fondoBuscar:hover{
+    background-color: #131b23;
+    color:  #e0dac6;
+    transition: all 800ms;
+}
+
+/* NAV */
+
+.nav{
+    grid-area: nav;
+}
+
+.navFondo{
+    background-color: #e0dac6;
+}
+
+.textoMenu{
+    color: #131b23;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: #e0dac6;
+    padding: 10px 0 10px 0;
+    font-weight: bold;
+}
+
+.textoMenu li {
+    display: inline-block;
+    position: relative;
+    padding: 0 15px;
+}
+.textoMenu ul {
+    position: absolute;
+    display: none;
+}
+
+.textoMenu ul li {
+    display: block;
+    background-color: #e7dfc6;
+    width: 150px;
+}
+
+.textoMenu li:hover ul {
+    display: block;
+    color: #2274a5;
+}
+
+/* TITULOS PARRAFOS Y CONTENIDO */
+
+h1{
+    color:#2274a5;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 4px;
+    display: inline-block;
+}
+
+h2{
+    color:#131b23;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 0 10px 0;
+}
+
+.tituloAzul{
+    color: rgb(3, 3, 59);
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.parrafoGris{
+    color: grey;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+
+.parrafoAzul{
+    color: #0f2027;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+
+#parrafoVerde{
+    color: green;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+
+.separador{
+    background-image: url("../multimedia/moroccan-flower.png");
+    height: 45px;
+}
+
+/* INDEX ARTICULOS */
+
+.seccionArticulosFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.articuloSecundario{
+    background-color: white;
+    width: 550px;
+    margin: 20px;
+    align-items: center;
+    /* padding: 10px; */
+}
+
+.leerMas{
+    font-family: 'Raleway', sans-serif;
+    /* font-weight: bold; */
+    /* color: #0f2027;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-color: rgb(199, 190, 190);
+    width: 120px;
+    padding: 5px;
+    border-radius: 10px; */
+}
+
+.leerMas:hover{
+    background-color: rgb(199, 190, 190);
+    color: #0f2027;
+    transition: all 800ms;
+}
+
+.fotoNoticia{
+    text-align: center;
+    background-color: rgb(219, 212, 184);
+}
+
+.fotoNota{
+    height: auto;
+    width: auto;
+}
+
+.carouselFondo{
+    background-color: black;
+    opacity: 70%;
+}
+
+.articuloPrincipal{
+    /* padding: 20px 90px 20px 90px; */
+}
+
+.articuloInferior{
+    background-image: url("../multimedia/moroccan-flower-dark.png");
+    padding: 20px;
+    color: #e0dac6;
+}
+
+.suscribirse{
+    background-color: #e0dac6;
+    padding: 20px;
+}
+
+.nuevoEvento{
+    background-color: #e0dac6;
+    color: #0f2027;
+}
+/* NOSOTROS */
+
+.titulosTabla{
+    color: #816c61;
+}
+
+.abogadoPadre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.abogado{
+    /* 
+    text-align: center;
+    background-color: #adadad;
+    font-family: 'Raleway', sans-serif;
+    color: #0f2027;
+    border-radius: 15px;
+    height: 225px;
+    width: 200px; */
+    color: #131b23;
+    margin: 10px;
+}
+
+/* .abogado:hover{
+    background-color: #0f2027;
+    color: #adadad;
+    transition: all 800ms;
+} */
+
+
+.imagenAbogado{
+    height: 18rem;
+    width: 18rem;
+} 
+
+/* CLIENTES */
+
+.listaClientes{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.clienteHijo{
+    margin: 10px;
+}
+
+/* CONOCIMIENTO */
+
+.listaConocimientos{
+    color: white;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.conocimientoHijo{
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    background-color: #0f2027;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conocimientoHijo:hover{
+    background-color: #adadad;
+    color: #0f2027;
+    transition: all 800ms;
+}
+
+/* CONTACTO */
+
+form{
+    color: #131b23;
+}
+
+.formulario{
+    text-align: center;
+    /* margin-left: 350px; */
+    display: flex;
+    justify-content: center;
+}
+
+.formularioContacto{
+    color: #131b23;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    background-image: url(../EstudioFM/multimedia/fondo.png);
+    text-align: center;
+    padding: 10px 200px 10px 200px;
+    border: solid 2px black;
+    border-radius: 10px;
+    /* width: 200px; */
+}
+
+/* FOOTER */
+
+.preFooter{
+    background-color: #e0dac6;
+    height: 10px;
+}
+
+footer{
+    color: white;
+    background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    padding: 20px;
+    margin: 0px;
+}
+
+.text-white{
+    color: white;
+}
+
+
+/* RESPONSIVE MOBILE FIRST */
+
+@media only screen and (max-width: 768px) {
+    
+    }
+
+@media only screen and (max-width: 320px) {
+    
+    }
+
