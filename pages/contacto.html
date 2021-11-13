@@ -77,70 +77,77 @@
 
     <h2 style="padding-top: 10px;">CONTACTO</h2>
 
+    <div class="container">
+
+      <div class="row">
+        <div class="col-sm-12 col-lg-4">
+          
+          <div class="tarjetaContactoDireccion d-flex align-items-center">
+            <img src="../multimedia/location.png" alt="" style="margin-right: 10px;">
+            Av. Hipolito Yrigoyen 146 - Piso 6
+            <br>
+            Ciudad de Cordoba
+            <br>
+            CP 5000
+          </div>
+          <div class="tarjetaContactoEmail d-flex align-items-center">
+            <img src="../multimedia/email.png" alt="" style="margin-right: 10px;">
+            contacto@estudiofl.com.ar</div>
+          <div class="tarjetaContactoTelefono d-flex align-items-center">
+            <img src="../multimedia/phone-call.png" alt="" style="margin-right: 10px;">
+            4608234 / 4608236</div>
+
+        </div>
+
+        <div class="col-sm-12 col-lg-8">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.6971469343825!2d-64.19021888530607!3d-31.422469203689456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a285c0560213%3A0xde607f4a25ffdd13!2sAv.%20Hip%C3%B3lito%20Yrigoyen%20146%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1636837563845!5m2!1ses!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+
     <section class="formulario">
-      <div class="formularioContacto">
+      <div class="formularioContacto container">
         <p>Tiene un problema? Contactese con nosotros para que lo ayudemos.</p>
 
         <form action="">
-
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su Nombre y Apellido">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su Email">
-          </div>
-          
-          <!-- <label for="nombre">Nombre</label>
-          <input type="text" placeholder="Ingrese su nombre" name="nombre" />
-          <br /><br />
-          <label for="apellido">Apellido</label>
-          <input
-            type="text"
-            placeholder="Ingrese su apellido"
-            name="apellido"
-          /> -->
-          
-          <!-- <label for="email">Email</label>
-          <input type="email" placeholder="Ingrese su email" name="email" />
-          <br />
-          <p>Sexo</p>
-          <input type="radio" name="sexo" value="sexo" /> Masculino
-          <input type="radio" name="sexo" value="sexo" /> Femenino
-          <br /> -->
-          <div class="form-floating">
-            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-              <option selected>Area del Derecho</option>
-              <option value="1">Contratos</option>
-              <option value="2">Laboral</option>
-              <option value="3">Sucesiones</option>
-              <option value="4">Sociedades</option>
-              <option value="5">No estoy seguro</option>
-            </select>
-            <label for="floatingSelect">Seleccione Area</label>
-          </div>
-          <!-- <p>Area del Derecho</p>
-          <select name="area" id="">
-            <option value="contratos">Contratos</option>
-            <option value="contratos">Laboral</option>
-            <option value="contratos">Sucesiones</option>
-            <option value="contratos">No estoy seguro</option>
-          </select> -->
-          
-          <br/><br/>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <div class="row g-2" style="padding-bottom: 10px;">
+            <div class="col-lg-3 col-sm-12 col-xs-12">
+              <input type="text" class="form-control" placeholder="Nombre">
+            </div>
+            <div class="col-lg-3 col-sm-12 col-xs-12">
+              <input type="text" class="form-control" placeholder="Apellido">
+            </div>
+            <div class="col-lg-3 col-sm-12 col-xs-12">
+              <input type="email" class="form-control" placeholder="Correo electrónico">
+            </div>
+            <div class="col-lg-3 col-sm-12 col-xs-12">
+              <input type="tel" class="form-control" placeholder="Teléfono">
+            </div> 
           </div>
 
-          <br/>
-          <input type="reset" value="Borrar todo" />
-          <br/><br/>
-          <div class="col-auto">
-            <button type="submit" class="btn btn-primary">Enviar</button>
+          <div class="row g-2" style="padding-bottom: 10px;">
+            <div class="col-lg-4 col-sm-12 col-xs-12">
+              <select class="form-select" aria-label="Default select example">
+                <option selected="">Tematica a consultar</option>
+                <option value="1">Laboral</option>
+                <option value="2">Civil</option>
+                <option value="3">Familia</option>
+                <option value="4">Empresarial</option>
+                <option value="5">Bancario</option>
+                <option value="6">Otro</option>
+              </select>
+            </div>
+    
+            <div class="col-lg-8 col-sm-12 col-xs-12">
+              <textarea name="Consulta" class="form-control" placeholder="Inserta tu consulta" cols="auto" rows="auto"></textarea>
+            </div>
+          </div> 
+    
+          <div>
+            <button type="button" class="leerMas btn btn-dark">Enviar</button>
+            <button type="button" class="btn btn-secondary">Restaurar</button>
+    
           </div>
-          <!-- <input type="submit" value="Enviar" /> -->
         </form>
       </div>
     </section>

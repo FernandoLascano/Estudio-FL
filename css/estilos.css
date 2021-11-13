@@ -303,9 +303,10 @@ form{
 }
 
 .formulario{
+    padding: 10px;
     text-align: center;
     /* margin-left: 350px; */
-    display: flex;
+    /* display: flex; */
     justify-content: center;
 }
 
@@ -316,10 +317,36 @@ form{
     font-weight: bold;
     background-image: url(../EstudioFM/multimedia/fondo.png);
     text-align: center;
-    padding: 10px 200px 10px 200px;
+    /* padding: 10px 200px 10px 200px;
     border: solid 2px black;
-    border-radius: 10px;
+    border-radius: 10px; */
     /* width: 200px; */
+}
+
+.tarjetaContactoDireccion{
+    height: 90px;
+    background-color: #c7c7c7;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+}
+
+.tarjetaContactoEmail{
+    height: 90px;
+    background-color: #c7c7c7;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+}
+
+.tarjetaContactoTelefono{
+    height: 90px;
+    background-color: #c7c7c7;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
 }
 
 /* FOOTER */
