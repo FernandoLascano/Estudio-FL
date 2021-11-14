@@ -229,23 +229,9 @@ h2{
 }
 
 .abogado{
-    /* 
-    text-align: center;
-    background-color: #adadad;
-    font-family: 'Raleway', sans-serif;
-    color: #0f2027;
-    border-radius: 15px;
-    height: 225px;
-    width: 200px; */
     color: #131b23;
     margin: 10px;
 }
-
-/* .abogado:hover{
-    background-color: #0f2027;
-    color: #adadad;
-    transition: all 800ms;
-} */
 
 
 .imagenAbogado{
@@ -305,8 +291,6 @@ form{
 .formulario{
     padding: 10px;
     text-align: center;
-    /* margin-left: 350px; */
-    /* display: flex; */
     justify-content: center;
 }
 
@@ -317,10 +301,6 @@ form{
     font-weight: bold;
     background-image: url(../EstudioFM/multimedia/fondo.png);
     text-align: center;
-    /* padding: 10px 200px 10px 200px;
-    border: solid 2px black;
-    border-radius: 10px; */
-    /* width: 200px; */
 }
 
 .tarjetaContactoDireccion{
@@ -372,6 +352,7 @@ footer{
     --twitter: #1d9bf0;
     --linkedin: #0077B5;
     --whatsapp: #10a210;
+    --envelope: #e43737;
 }
 
 .redes-container{
@@ -391,7 +372,7 @@ footer{
 .redes-container ul li a{
     display: block;
     padding: 0 10px;
-    background: #333;
+    background: #2c5364;
     color: #fff;
     line-height: 40px;
     font-size: 18px;
@@ -423,6 +404,10 @@ footer{
 
 .redes-container ul li .whatsapp:hover{
     background: var(--whatsapp);
+}
+
+.redes-container ul li .envelope:hover{
+    background: var(--envelope);
 }
 
 /* RESPONSIVE MOBILE FIRST */
