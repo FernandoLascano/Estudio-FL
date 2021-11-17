@@ -143,7 +143,7 @@ h2{
 
 .separador{
     background-image: url("../multimedia/moroccan-flower.png");
-    height: 45px;
+    height: 25px;
 }
 
 /* INDEX ARTICULOS */
@@ -216,6 +216,25 @@ h2{
     background-color: #e0dac6;
     color: #0f2027;
 }
+
+.hitosEstudio{
+    background-color: #e0dac6;
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #0f2027;
+}
+
+.hitosApartado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.hitosSlogan{
+    padding: 10px;
+}
+
 /* NOSOTROS */
 
 .titulosTabla{
