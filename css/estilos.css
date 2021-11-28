@@ -312,6 +312,14 @@ h2{
     justify-content: center;
 }
 
+.articuloCliente{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-align: justify;
+}
+
 .clienteHijo{
     margin: 10px;
 }
