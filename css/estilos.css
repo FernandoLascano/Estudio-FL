@@ -1,5 +1,10 @@
+/* font-family: 'Raleway', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+/* font-family: 'EB Garamond', serif; */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+/* font-family: 'Playfair Display', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&display=swap');
+
 
 /* HEADER */
 
@@ -114,7 +119,7 @@ h2{
     color: rgb(3, 3, 59);
     font-family: 'EB Garamond', serif;
     font-weight: 700;
-    text-align: left;
+    text-align: center;
     font-size: 38px;
 }
 
@@ -268,6 +273,21 @@ h2{
 
 /* NOSOTROS */
 
+.encabezadoNosotros{
+    background-image: url("../multimedia/fondos/nosotros.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    width: auto;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
 .titulosTabla{
     color: #816c61;
 }
@@ -304,6 +324,30 @@ h2{
 
 /* CLIENTES */
 
+.encabezadoClientes{
+    background-image: url("../multimedia/fondos/clientes.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    width: auto;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.tituloEncabezado{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    letter-spacing: 2px;
+}
+
 .listaClientes{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -318,6 +362,22 @@ h2{
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     text-align: justify;
+}
+
+.imagenCliente{
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+} 
+
+.imagenCliente:hover{
+    -webkit-filter: none;
+    filter: none;
+    -webkit-transition: -webkit-filter .5s;
+    transition: -webkit-filter .5s;
+    transition: filter .5s;
+    transition: filter .5s, -webkit-filter .5s;
 }
 
 .clienteHijo{
@@ -359,6 +419,21 @@ h2{
 
 
 /* CONOCIMIENTO */
+
+.encabezadoConocimientos{
+    background-image: url("../multimedia/fondos/conocimiento.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    width: auto;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
 
 .listaConocimientos{
     color: white;
@@ -605,3 +680,14 @@ footer{
                 justify-self: center;
     }
 }
+
+@media only screen and (max-width: 375px){
+    .encabezadoClientes{height: 120px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .tituloEncabezado{font-size: 30px;
+    }
+}
+
