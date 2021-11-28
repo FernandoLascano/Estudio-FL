@@ -356,10 +356,31 @@ h2{
     justify-content: center;
 }
 
+.visitarSitio{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.vistarSitio-btn{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+.vistarSitio-btn:hover{
+    background-color: #134155;
+    transition: all 500ms;
+    cursor: pointer;
+}
+
 .articuloCliente{
+    font-size: 12px;
     display: -webkit-box;
     overflow: hidden;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     text-align: justify;
 }
@@ -505,6 +526,22 @@ form{
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
     padding: 10px;
+    display: flex;
+    justify-content: left;
+    border-radius: 5px;
+}
+
+.tarjetaContactoDireccion:hover{
+    background-color: #acacac;
+}
+
+.imagenContacto{
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
 }
 
 .tarjetaContactoEmail{
@@ -514,6 +551,11 @@ form{
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
     padding: 10px;
+    border-radius: 5px;
+}
+
+.tarjetaContactoEmail:hover{
+    background-color: #acacac;
 }
 
 .tarjetaContactoTelefono{
@@ -522,6 +564,21 @@ form{
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
     padding: 10px;
+    border-radius: 5px;
+}
+
+.tarjetaContactoTelefono:hover{
+    background-color: #acacac;
+}
+
+.tituloContacto{
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.textoContacto{
+    margin-left: 10px;
 }
 
 /* FOOTER */
@@ -593,9 +650,13 @@ footer{
 
 .redes-container{
     display: flex;
-    align-items: center;
+    justify-self: center;
     justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
 }
+
 
 .redes-container ul li{
     display: inline-block;
@@ -705,4 +766,25 @@ footer{
     .tituloEncabezado{font-size: 30px;
     }
 }
+
+@media only screen and (max-width: 375px){
+    .encabezadoConocimientos{height: 120px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .encabezadoContacto{height: 120px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .encabezadoNosotros{height: 120px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .tarjetaContactoTelefono{margin-bottom: 20px;
+    }
+}
+
 
