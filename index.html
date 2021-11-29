@@ -11,16 +11,16 @@
 
     <title>ESTUDIO FL - Lideres en Derecho</title>
 
-    <!-- CSS BOOTSTRAP -->
+<!-- CSS BOOTSTRAP -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 
-    <!-- CSS -->
+<!-- CSS -->
 
     <link rel="stylesheet" href="css/estilos.css">
 
-    <!-- FUENTES -->
+<!-- FUENTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,6 +33,8 @@
 </head>
 <body class="container-fluid">
   
+<!-- LOGO HEADER -->
+
 <header>
 
     <div class="row logo">
@@ -43,6 +45,7 @@
 
 </header>
 
+<!-- NAVBAR -->
 
 <nav class="navbar navbar-expand-lg navbar-light navFondo">
     <div class="container-fluid">
@@ -79,6 +82,7 @@
 
     <main>
 
+<!-- CARROUSEL NOTICIAS -->
 
         <div id="carouselExampleCaptions" class="carousel slide articuloPrincipal" data-bs-ride="carousel">
           <div class="carousel-indicators">
@@ -123,6 +127,8 @@
   
     <br><br>
 
+<!-- HITOS -->
+
     <section>
       <div class="container-fluid">
         <div class="row hitosEstudio">
@@ -148,6 +154,8 @@
     <br><br>
     <section>
 
+<!-- NOTICIAS -->
+
       <div class="card-group">
         <div class="card col-lg-4 col-sm-12">
           <img src="multimedia/fotonota2.jpg" alt="ciberdelitos" class="img-fluid card-img-top">
@@ -163,7 +171,7 @@
           </div>
         </div>
         <div class="card col-lg-4 col-sm-12">
-          <img src="multimedia/fotonota3.jpg" alt="ciberdelitos" class="img-fluid card-img-top">
+          <img src="multimedia/fotonota3.jpg" alt="corte suprema" class="img-fluid card-img-top">
           <div class="card-body">
             <h5 class="card-title">Se oficializaron los nuevos jueces de la Corte Suprema de Justicia de la Nacion</h5>
             <p class="card-text articuloNoticia">El Gobierno Nacional oficializó este martes la designación de dos jueces en la Corte Suprema de Justicia, al tiempo que designó al representante del Poder Ejecutivo en el Consejo de la Magistratura, según los decretos 83 y 66, publicados en el Boletín Oficial.
@@ -176,7 +184,7 @@
           </div>
         </div>
         <div class="card col-lg-4 col-sm-12">
-          <img src="multimedia/fotonota4.jpg" alt="ciberdelitos" class="img-fluid card-img-top">
+          <img src="multimedia/fotonota4.jpg" alt="limite intereses" class="img-fluid card-img-top">
           <div class="card-body">
             <h5 class="card-title">Adecuan limitación de intereses y rechazan que el juez cargue con las costas</h5>
             <p class="card-text articuloNoticia">En una causa por el cobro de un pagaré, al modificar la sentencia de primera instancia, en cuanto había determinado un límite en los intereses moratorios a 50% nominal anual y ordenado que se adecuen al comúnmente utilizado en la justicia; esto es, dos por ciento mensual más la tasa pasiva del Banco Central de la República Argentina (BCRA), la Cámara 7ª Civil y Comercial de Córdoba rechazó que las costas de esta instancia sean impuestas al juez a quo, pues no evidenció error inexcusable de hecho o derecho..</p>
@@ -192,6 +200,8 @@
 
     <br><br><br>
 
+<!-- EVENTOS / NEWSLETTERS -->
+
     <section>
 
       <div class="container-fluid">
@@ -201,7 +211,7 @@
               <img src="multimedia/calendar.png" alt="calendario" style="padding-right: 10px;">
               </svg>
               <div>
-                Jueves 12 de Noviembre de 2021 - 19:00hs - 21:00hs GMT-3
+                Jueves 16 de Diciembre de 2021 - 19:00hs - 21:00hs GMT-3
               </div>
             </div>
             <h3>Nueva ley de teletrabajo: claves y sus principales cambios</h3>
@@ -211,7 +221,7 @@
 
             La charla estará a cargo de nuestros socios expertos en derecho laboral Rodrigo Solá Torino y Guillermo M. Osorio junto con María Cecilia Ruiz, gerente de legales de Danone en Latinoamérica.
 
-            ¿Cuándo? El 12 de noviembre a las 19:00hs (ARG) en vivo en nuestro perfil de LinkedIn.</p> 
+            ¿Cuándo? El 16 de diciembre a las 19:00hs (ARG) en vivo en nuestro perfil de LinkedIn.</p> 
           </div>
 
           <div class="col-sm-12 col-lg-1">
@@ -221,8 +231,31 @@
             <h3>Suscríbase a nuestros newsletters</h3>
             <p style="text-align: justify;">Elaboramos periódicamente informes para clientes y boletines donde se analizan cambios en la legislación y cuestiones relacionadas con la industria, y su impacto en los mercados en que operan nuestros clientes.</p>
             <br>
+            <input
+                type="email"
+                class="form-control"
+                placeholder="Correo electrónico"
+              />
             <br>
-            <button type="button" class="leerMas btn btn-dark">SUSCRIBIRME</button>
+            <button type="button" class="leerMas btn btn-dark" data-bs-toggle="modal" data-bs-target="#suscripcionModal">SUSCRIBIRME</button>
+
+            <div class="modal fade" id="suscripcionModal" tabindex="-1" aria-labelledby="suscripcionModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="suscripcionModalLabel">Suscripción exitosa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Gracias por suscribirte! Estarás recibiendo las novedades más relevantes del Derecho directo en tu correo electrónico.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -235,6 +268,8 @@
     </section>
 
     <br><br><br>
+
+<!-- CLIENTES -->
 
     <section>
       <h3 class="tituloGaramond">Confían en EstudioFL:</h3>
@@ -267,11 +302,13 @@
     </section>
     <br><br>
 
+<!-- FOOTER -->
+
     <footer>
       <div class="container-fluid ">
         <div class="row">
         <div class="col-lg-2">
-          <img src="multimedia/logoEstudio.png" alt="" class="logoFooter">
+          <img src="multimedia/logoEstudio.png" alt="logo estudio" class="logoFooter">
         </div>
         <div class="col-lg-10">
           <ul class="nav justify-content-end">
@@ -306,13 +343,13 @@
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
     crossorigin="anonymous"
   ></script>
-  <script
+    <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js"
     integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u"
     crossorigin="anonymous"
   ></script>
   <script src="splide-3.6.4/dist/js/splide.min.js"></script>
-  <script>
+    <script>
     document.addEventListener('DOMContentLoaded', function () {
       var splide = new Splide('.splide', {
         type: 'loop',
@@ -321,7 +358,7 @@
       });
       splide.mount();
     });
-  </script>
+    </script>
 
 </body>
 </html>

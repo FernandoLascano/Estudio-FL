@@ -20,26 +20,6 @@ header{
     padding: 10px 0;
 }
 
-
-
-.estudioFM{
-    grid-area: estudioFM;
-    text-align: center;
-    color: white;
-}
-
-header nav ul li a:link {
-    color: #131b23;
-}
-
-header nav ul li a:visited {
-    color: #131b23;
-}
-
-header nav ul li a:hover {
-    color: #2e4153
-}
-
 #fondoBuscar{
     background-color:  #e0dac6;
     border-color: white;
@@ -123,20 +103,8 @@ h2{
     font-size: 38px;
 }
 
-.parrafoGris{
-    color: grey;
-    text-align: justify;
-    font-family: 'Raleway', sans-serif;
-}
-
 .parrafoAzul{
     color: #0f2027;
-    text-align: justify;
-    font-family: 'Raleway', sans-serif;
-}
-
-#parrafoVerde{
-    color: green;
     text-align: justify;
     font-family: 'Raleway', sans-serif;
 }
@@ -148,32 +116,9 @@ h2{
 
 /* INDEX ARTICULOS */
 
-.seccionArticulosFlex{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.articuloSecundario{
-    background-color: white;
-    width: 550px;
-    margin: 20px;
-    align-items: center;
-    /* padding: 10px; */
-}
 
 .leerMas{
     font-family: 'Raleway', sans-serif;
-    /* font-weight: bold; */
-    /* color: #0f2027;
-    text-align: center;
-    letter-spacing: 2px;
-    font-weight: bold;
-    background-color: rgb(199, 190, 190);
-    width: 120px;
-    padding: 5px;
-    border-radius: 10px; */
 }
 
 .leerMas:hover{
@@ -182,10 +127,6 @@ h2{
     cursor: pointer;
 }
 
-.fotoNoticia{
-    text-align: center;
-    background-color: rgb(219, 212, 184);
-}
 
 .fotoNota{
     height: auto;
@@ -195,10 +136,6 @@ h2{
 .carouselFondo{
     background-color: black;
     opacity: 70%;
-}
-
-.articuloPrincipal{
-    /* padding: 20px 90px 20px 90px; */
 }
 
 .articuloInferior{
@@ -223,6 +160,9 @@ h2{
 .nuevoEvento{
     background-color: #e0dac6;
     color: #0f2027;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .hitosEstudio{
@@ -302,7 +242,6 @@ h2{
     color: #131b23;
     margin: 10px;
 }
-
 
 .imagenAbogado{
     height: 18rem;
@@ -624,7 +563,6 @@ footer{
 .mapaSitio li {
     display: inline-block;
     position: relative;
-    /* padding: 0 15px; */
 }
 .mapaSitio ul {
     position: absolute;
